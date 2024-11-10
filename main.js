@@ -1,9 +1,13 @@
 // MAGIC 8 BALL PROJECT
 
 // USERNAME HANDLING
-
-const userName = 'Stephen';
-userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+let userName = 'Stephen';
+if (userName) {
+console.log(`Hello, ${userName}!`);
+}
+else { 
+    console.log('Hello!');
+}
 
 // QUESTION HANDLING
 const userQuestion = "Will I get a job in coding after this program?";
